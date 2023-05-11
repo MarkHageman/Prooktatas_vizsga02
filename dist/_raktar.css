@@ -1,0 +1,594 @@
+@charset "UTF-8";
+@media (max-width: 576px) {
+  .col-1 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+
+  .col-2 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+
+  .col-3 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+
+  .col-4 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+
+  .col-5 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+
+  .col-6 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+
+  .col-7 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+
+  .col-8 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+
+  .col-9 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+
+  .col-10 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+
+  .col-11 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+
+  .col-12 {
+    flex-basis: 100%;
+    max-width: 100% h;
+  }
+}
+@media (min-width: 576px) {
+  .col-sm-1 {
+    flex-basis: 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .col-sm-2 {
+    flex-basis: 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .col-sm-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .col-sm-4 {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .col-sm-5 {
+    flex-basis: 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .col-sm-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .col-sm-7 {
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .col-sm-8 {
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .col-sm-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  .col-sm-10 {
+    flex-basis: 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .col-sm-11 {
+    flex-basis: 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .col-sm-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-1 {
+    flex-basis: 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .col-md-2 {
+    flex-basis: 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .col-md-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .col-md-4 {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .col-md-5 {
+    flex-basis: 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .col-md-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .col-md-7 {
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .col-md-8 {
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .col-md-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  .col-md-10 {
+    flex-basis: 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .col-md-11 {
+    flex-basis: 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .col-md-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-1 {
+    flex-basis: 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .col-lg-2 {
+    flex-basis: 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .col-lg-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .col-lg-4 {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .col-lg-5 {
+    flex-basis: 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .col-lg-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .col-lg-7 {
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .col-lg-8 {
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .col-lg-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  .col-lg-10 {
+    flex-basis: 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .col-lg-11 {
+    flex-basis: 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .col-lg-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-1 {
+    flex-basis: 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .col-xl-2 {
+    flex-basis: 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .col-xl-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .col-xl-4 {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .col-xl-5 {
+    flex-basis: 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .col-xl-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .col-xl-7 {
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .col-xl-8 {
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .col-xl-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  .col-xl-10 {
+    flex-basis: 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .col-xl-11 {
+    flex-basis: 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .col-xl-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  .col-xxl-1 {
+    flex-basis: 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+
+  .col-xxl-2 {
+    flex-basis: 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+
+  .col-xxl-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .col-xxl-4 {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .col-xxl-5 {
+    flex-basis: 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+
+  .col-xxl-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  .col-xxl-7 {
+    flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+
+  .col-xxl-8 {
+    flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+
+  .col-xxl-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  .col-xxl-10 {
+    flex-basis: 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+
+  .col-xxl-11 {
+    flex-basis: 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+
+  .col-xxl-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+table {
+  border-collapse: collapse;
+  width: 100vw;
+}
+table th, table td {
+  text-align: center;
+  background-color: grey;
+}
+table th {
+  background-color: #28c3c3;
+}
+@media (max-width: 852px) {
+  table {
+    text-align: center;
+  }
+  table td:nth-of-type(1):before {
+    content: "ISBN: ";
+  }
+  table td:nth-of-type(1) {
+    padding-top: 1rem;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+  }
+  table td:nth-of-type(2):before {
+    content: "Cím: ";
+  }
+  table td:nth-of-type(3):before {
+    content: "Típus: ";
+  }
+  table td:nth-of-type(4):before {
+    content: "Ár: ";
+  }
+  table td:nth-of-type(5):before {
+    content: "Szerző: ";
+  }
+  table td:nth-of-type(6):before {
+    content: "Műfaj: ";
+  }
+  table td:nth-of-type(7):before {
+    content: "Szinopszis: ";
+  }
+  table td:nth-of-type(8):before {
+    content: "Kiadás dátuma: ";
+  }
+  table td:nth-of-type(9):before {
+    content: "Műveletek: ";
+  }
+  table td:nth-of-type(9) {
+    padding-bottom: 1rem;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+  }
+  table th {
+    display: none;
+  }
+  table tbody tr {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  table tbody td {
+    display: block;
+  }
+  table tbody td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table button {
+    width: 20%;
+  }
+}
+@media (min-width: 1001px) {
+  table td.szinopszis {
+    max-width: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 853px) and (max-width: 1000px) {
+  table th:nth-child(7), table td:nth-child(7) {
+    display: none;
+  }
+}
+table button {
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  background-color: goldenrod;
+  color: grey;
+  font-size: calc(0.9em + .5vw);
+  cursor: pointer;
+}
+
+.torlesModal {
+  width: 80%;
+  max-width: 400px;
+  background-color: grey;
+  border-radius: 20%;
+  border: 1px solid #28c3c3;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 20px;
+  color: #ca0d0d;
+  visibility: hidden;
+  transition: transform 0.4s;
+}
+
+.modal-hatter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  display: none;
+}
+
+.torlesModal h2 {
+  font-size: 1.5rem;
+  font-weight: 50px;
+  margin: 30px;
+}
+
+.torlesModal button {
+  width: 45%;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #28c3c3;
+  border: 0;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.modositoModal, .ujTermekModal {
+  width: 80%;
+  max-width: 400px;
+  background-color: teal;
+  border-radius: 20%;
+  border: 1px solid #28c3c3;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 20px;
+  color: #ca0d0d;
+  visibility: hidden;
+  transition: transform 0.4s;
+}
+.modositoModal h2, .ujTermekModal h2 {
+  font-size: 1.5rem;
+  font-weight: 50px;
+  margin: 10px;
+}
+.modositoModal button, .ujTermekModal button {
+  width: 80%;
+  padding: 15px;
+  background-color: #28c3c3;
+  border: 0;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.modositoModal input, .ujTermekModal input {
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  background-color: grey;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.modositoModal textarea, .ujTermekModal textarea {
+  width: 70%;
+  font-size: 1.2rem;
+}
+
+.open-Modal {
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  visibility: visible;
+  z-index: 999;
+}
+
+.lapozo-container {
+  margin: auto;
+  text-align: center;
+}
+.lapozo-container .oldalszamozas {
+  border-top-right-radius: 45%;
+  border-top-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+  border-bottom-left-radius: 45%;
+  background-color: #28c3c3;
+  border: 0;
+}
+.lapozo-container .active-lapozas {
+  transform: scale(1.5);
+  background-color: grey;
+  color: goldenrod;
+}
+
+.ujTermekGomb {
+  margin: auto;
+  text-align: center;
+}
+.ujTermekGomb #openUjTermekModal {
+  border-top-right-radius: 15%;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  border: 0;
+  background-color: teal;
+  color: goldenrod;
+  font-size: 1.5rem;
+}
