@@ -1,0 +1,67 @@
+@import "utilities.scss";
+@import "margin&padding";
+@import "menu";
+@import "footer";
+@import "home";
+@import "course";
+@import "contact";
+@import "books";
+@import "konyv";
+@import "loginRegist";
+@import "raktar";
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+html{
+    font-size: calc(.8em + .5vw);
+}
+
+.container{
+    max-width: 95%;
+    margin: auto;
+    padding: 10px 15px;
+}
+
+.row {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.header-img{
+    /* background-color: yellow; */
+    background-image: $section-background;
+    height: 15rem;
+    background-size: cover;
+    background-position: 60%;
+    border-bottom-right-radius: 28%;
+    border-bottom-left-radius: 28%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 1rem;
+    h1{
+        text-align: center;
+        color: $span-color;
+        font-weight: 900;
+        font-size: 1.7rem;
+        text-shadow: 2px 2px 5px black;
+    }
+}
+
+

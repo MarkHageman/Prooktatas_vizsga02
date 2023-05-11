@@ -1,0 +1,152 @@
+@import "utilities";
+
+nav{
+    background-color: $primary;
+    img{
+        mix-blend-mode: multiply;
+        width: calc(70px + 2vw);
+        transition: transform 2s;
+    }
+    img:hover{
+        transform: translateY(10px);
+    }
+}
+
+
+span{
+    color: $span-color;
+}
+
+.container-nav{
+    z-index: 10;
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    a{
+        text-decoration: none;
+        background-color: $secondary;
+        border-radius: 20%;
+        &:link{
+            color: $font-color;
+        }
+        &:visited{
+            color: $font-color;
+        }
+        &:hover{
+            animation-name: navFade;
+            animation-duration: 300ms;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+            
+        }
+        
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        align-items: center; 
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #logo{
+        border-radius: 20px;
+    }
+    svg{
+        background-color: $secondary;
+        width: 24px;
+        height: 24px;
+        display: none;
+        cursor: pointer;
+        .menuline{
+            stroke: rgb(189, 11, 11);
+        }
+    }
+    @media (max-width: 990px){
+        .menu{
+            display: none;
+        }
+        svg{
+            display: block;
+            border-radius: 15px;
+        }
+        
+    }
+}
+
+.nav{
+    z-index: 1;
+    position: absolute;
+    left: calc(-5rem + 45vw);
+    margin: auto;
+    width: 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 500ms ease-in-out;
+    transform: translateY(-21rem);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    a{
+        box-sizing: border-box;
+        text-decoration: none;
+        &:link{
+            color: $font-color;
+        }
+        &:visited{
+            color: $font-color;
+        }
+        
+        
+    }
+    li{
+        background-color: $secondary;
+        list-style-type: none;
+        border-radius: 20%;
+        &:hover{
+            animation-name: navFade;
+            animation-duration: 300ms;
+            animation-iteration-count: 1;
+            animation-direction: normal;
+            animation-timing-function: ease-in-out;
+            animation-fill-mode: forwards;
+            
+        }
+    }
+}
+.menu-active{
+    transition: transform 500ms ease-in-out;
+    transform: translateY(0rem);
+}
+
+.link{
+    border-radius: 10px;
+}
+
+@keyframes navFade{
+    from{
+        background-color: $secondary;
+        color: $font-color;
+    }
+    to{
+        background-color: $bgc-color2;
+        color: $span-color;
+    }
+}

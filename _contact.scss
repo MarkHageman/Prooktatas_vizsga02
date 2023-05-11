@@ -1,0 +1,33 @@
+@import "utilities";
+
+.contact{
+    background-color: $bgc-color;
+    border-top-right-radius: 13%;
+    border-top-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+    border-bottom-left-radius: 13%;
+    h2{
+        text-align: center;
+        font-variant: small-caps;
+        font-size: 2rem;
+    }
+    &-card{
+        background-color: $button;
+        color: white;
+        text-align: center;
+        justify-self: flex-start;
+        border-top-right-radius: 20%;
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+        a{
+            text-decoration: none;
+            &:link{
+                color: white;
+            }
+            &:visited{
+                color: white;
+            }
+        }
+    }
+}

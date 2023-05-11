@@ -1,0 +1,96 @@
+$spaceamounts: (0, 1, 2, 3, 4, 5);
+
+//teljes margin és padding
+
+@each $space in $spaceamounts{
+    .m-#{$space}{
+        $distance: $space * 0.3;
+        margin: #{$distance}rem;
+    }
+    .p-#{$space}{
+        $distance: $space * 0.3;
+        padding: #{$distance}rem;
+    }
+}
+
+//top margin és padding
+
+@each $space in $spaceamounts{
+    .mt-#{$space}{
+        $distance: $space * .3;
+        margin-top: #{$distance}rem
+    }
+    .pt-#{$space}{
+        $distance: $space *.3;
+        padding-top: #{$distance}rem;
+    }
+}
+
+//bottom margin és padding
+
+@each $space in $spaceamounts{
+    .mb-#{$space}{
+        $distance: $space * .3;
+        margin-bottom: #{$distance}rem
+    }
+    .pb-#{$space}{
+        $distance: $space *.3;
+        padding-bottom: #{$distance}rem;
+    }
+}
+
+//left margin és padding
+
+@each $space in $spaceamounts{
+    .ml-#{$space}{
+        $distance: $space * .3;
+        margin-left: #{$distance}rem
+    }
+    .pl-#{$space}{
+        $distance: $space *.3;
+        padding-left: #{$distance}rem;
+    }
+}
+
+//right margin és padding
+
+@each $space in $spaceamounts{
+    .mr-#{$space}{
+        $distance: $space * .3;
+        margin-right: #{$distance}rem
+    }
+    .pr-#{$space}{
+        $distance: $space *.3;
+        padding-right: #{$distance}rem;
+    }
+}
+
+//x-tengely margin és padding
+
+@each $space in $spaceamounts{
+    .mx-#{$space}{
+        $distance: $space * .3;
+        margin-left: #{$distance}rem;
+        margin-right: #{$distance}rem;
+    }
+    .px-#{$space}{
+        $distance: $space *.3;
+        padding-left: #{$distance}rem;
+        padding-right: #{$distance}rem;
+    }
+}
+
+//y-tengely margin és padding
+
+@each $space in $spaceamounts{
+    .my-#{$space}{
+        $distance: $space * .3;
+        margin-top: #{$distance}rem;
+        margin-bottom: #{$distance}rem;
+    }
+    .py-#{$space}{
+        $distance: $space *.3;
+        padding-top: #{$distance}rem;
+        padding-bottom: #{$distance}rem;
+    }
+}

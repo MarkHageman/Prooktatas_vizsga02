@@ -1,0 +1,39 @@
+@import "utilities";
+
+.container-footer{
+    background-color: $primary;
+    bottom: 0;
+    border-top: 2px solid brown;
+    color: $font-color;
+    .datas{
+        text-align: center;
+        
+    }
+    .sitemap{
+        text-align: center;
+        align-self: flex-start;
+    }
+    .course{
+        text-align: center;
+        align-self: flex-start;
+    }
+    a{
+        text-decoration: none;
+        transition: border-bottom 0.5s ease-in-out;
+        &:hover{
+            border-bottom: 1px solid brown;
+        }
+        &:link{
+            color: $font-color;
+        }
+        &:visited{
+            color: $font-color;
+        }
+}
+}
+
+.text-bottom{
+    text-align: center;
+    border-top: 1px dotted brown;
+    color: $font-color;
+}

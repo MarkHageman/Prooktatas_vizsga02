@@ -1,0 +1,71 @@
+@import "utilities";
+
+#product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "termek-borito termek-adatok"
+    "product-synops product-synops";
+    justify-content: space-around; 
+    width: 100%;
+    background-color: $bgc-color;
+    text-align: center;
+    border-top-right-radius: 8%;
+    border-top-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border-bottom-left-radius: 8%;
+    .termek-borito{
+        grid-area: termek-borito;
+    }
+    .termek-adatok{
+        grid-area: termek-adatok;
+        background-color: $button;
+        border-top-right-radius: 15%;
+        border-top-left-radius: 15%;
+        border-bottom-right-radius: 8%;
+        border-bottom-left-radius: 8%;
+    }
+
+    @media (max-width: 652px){
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-around;
+        grid-template-areas:
+        "termek-borito"
+        "termek-adatok"
+        "product-synops";
+    }
+    img{
+        border-top-right-radius: 8%;
+        border-top-left-radius: 8%;
+        border-bottom-right-radius: 8%;
+        border-bottom-left-radius: 8%;
+        width: 250px;
+        height: 300px;
+    }
+    &-synops{
+        grid-area: product-synops;
+        background-color: $button;
+        border-top-right-radius: 15%;
+        border-top-left-radius: 15%;
+        border-bottom-right-radius: 8%;
+        border-bottom-left-radius: 8%;
+    }
+    .order{
+        background-color: $span-color;
+        border-top-right-radius: 20%;
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+        border-bottom-left-radius: 20%;
+    }
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,71 @@
+$primary: rgb(239, 206, 146);
+$secondary: wheat;
+$span-color: goldenrod;
+$font-color: brown;
+$button: rgb(40, 195, 195);
+$bgc-color: teal;
+$bgc-color2: grey;
+$error: rgb(202, 13, 13);
+$section-background: url('../media/home_library.png');
+
+
+$grid-columns: 12;
+
+@media (max-width: 576px){
+    @for $i from 1 to 13{
+        .col-#{$i} {
+            flex-basis: 100%;
+            max-width: 100%h;
+        }
+    }
+}
+
+@media (min-width: 576px){
+    @for $i from 1 to 13{
+        $width: percentage($i / $grid-columns);
+        .col-sm-#{$i} {
+            flex-basis: $width;
+            max-width: $width;
+        }
+    }
+}
+
+@media (min-width: 768px){
+    @for $i from 1 to 13{
+        $width: percentage($i / $grid-columns);
+        .col-md-#{$i} {
+            flex-basis: $width;
+            max-width: $width;
+        }
+    }
+}
+
+@media (min-width: 992px){
+    @for $i from 1 to 13{
+        $width: percentage($i / $grid-columns);
+        .col-lg-#{$i} {
+            flex-basis: $width;
+            max-width: $width;
+        }
+    }
+}
+
+@media (min-width: 1200px){
+    @for $i from 1 to 13{
+        $width: percentage($i / $grid-columns);
+        .col-xl-#{$i} {
+            flex-basis: $width;
+            max-width: $width;
+        }
+    }
+}
+
+@media (min-width: 1400px){
+    @for $i from 1 to 13{
+        $width: percentage($i / $grid-columns);
+        .col-xxl-#{$i} {
+            flex-basis: $width;
+            max-width: $width;
+        }
+    }
+}

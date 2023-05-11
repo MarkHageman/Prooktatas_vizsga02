@@ -1,0 +1,210 @@
+@import 'utilities';
+
+
+table{
+    border-collapse: collapse;
+    width: 100vw;
+    th, td{
+        text-align: center;
+        background-color: $bgc-color2;
+    }
+    th{
+        background-color: $button;
+    }
+    @media (max-width: 852px){
+        text-align: center;
+        td:nth-of-type(1):before { content: "ISBN: "; }
+        td:nth-of-type(1) {
+            padding-top: 1rem;
+            border-top-right-radius: 20%;
+            border-top-left-radius: 20%;
+        }
+        td:nth-of-type(2):before { content: "Cím: "; }
+        td:nth-of-type(3):before { content: "Típus: "; }
+        td:nth-of-type(4):before { content: "Ár: "; }
+        td:nth-of-type(5):before { content: "Szerző: "; }
+        td:nth-of-type(6):before { content: "Műfaj: "; }
+        td:nth-of-type(7):before { content: "Szinopszis: "; }
+        td:nth-of-type(8):before { content: "Kiadás dátuma: "; }
+        td:nth-of-type(9):before { content: "Műveletek: "; }
+        td:nth-of-type(9) {
+            padding-bottom: 1rem;            
+            border-bottom-right-radius: 20%;
+            border-bottom-left-radius: 20%;
+        }
+        th{
+            display: none;
+        }
+        tbody tr{
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        tbody td {
+            display: block;
+        }
+        tbody td:before{
+            content: attr(data-label);
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        button{
+            width: 20%;
+        }
+        
+    }
+    @media (min-width: 1001px){
+        td.szinopszis{
+            max-width: 30px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+    @media (min-width: 853px) and (max-width: 1000px){
+        th:nth-child(7), td:nth-child(7){
+            display: none;
+        }
+    }
+    button{
+        border-top-right-radius: 15%;
+        border-top-left-radius: 15%;
+        border-bottom-right-radius: 15%;
+        border-bottom-left-radius: 15%;
+        background-color: $span-color;
+        color: $bgc-color2;
+        font-size: calc(0.9em + .5vw);
+        cursor: pointer;
+    }
+}
+.torlesModal{
+    width: 80%;
+    max-width: 400px;
+    background-color: $bgc-color2;
+    border-radius: 20%;
+    border: 1px solid $button;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 20px;
+    color: $error;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+.modal-hatter{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 998;
+    display: none;
+}
+
+.torlesModal h2{
+    font-size: 1.5rem;
+    font-weight: 50px;
+    margin: 30px;
+}
+.torlesModal button{
+    width: 45%;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: $button;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.modositoModal, .ujTermekModal{
+    width: 80%;
+    max-width: 400px;
+    background-color: $bgc-color;
+    border-radius: 20%;
+    border: 1px solid $button;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 20px;
+    color: $error;
+    visibility: hidden;
+    transition: transform 0.4s;
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 50px;
+        margin: 10px;
+    }
+    button{
+        width: 80%;
+        padding: 15px;
+        background-color: $button;
+        border: 0;
+        outline: none;
+        font-size: 1rem;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+    input{
+        border-top-right-radius: 15%;
+        border-top-left-radius: 15%;
+        border-bottom-right-radius: 15%;
+        border-bottom-left-radius: 15%;
+        background-color: $bgc-color2;
+        color: black;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    textarea{
+        width: 70%;
+        font-size: 1.2rem;
+    }
+}
+.open-Modal{
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    visibility: visible;
+    z-index: 999;
+}
+
+.lapozo-container{
+    margin: auto;
+    text-align: center;
+    .oldalszamozas{
+        border-top-right-radius: 45%;
+        border-top-left-radius: 45%;
+        border-bottom-right-radius: 45%;
+        border-bottom-left-radius: 45%;
+        background-color: $button;
+        border: 0;
+    }
+    .active-lapozas{
+        transform: scale(1.5);
+        background-color: $bgc-color2;
+        color: $span-color;
+    }
+}
+
+.ujTermekGomb{
+    margin: auto;
+    text-align: center;
+    #openUjTermekModal{
+        border-top-right-radius: 15%;
+        border-top-left-radius: 15%;
+        border-bottom-right-radius: 15%;
+        border-bottom-left-radius: 15%;
+        border: 0;
+        background-color: $bgc-color;
+        color: $span-color;
+        font-size: 1.5rem;
+    }
+    
+
+}
